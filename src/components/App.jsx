@@ -22,7 +22,7 @@ export const App = () => {
     <Layout>
       <GlobalStyle />
       <MainTitle>Phonebook</MainTitle>
-      {isLoading && !error && <b>Request in progress...</b>}
+      {isLoading && !error && <b>Loading...</b>}
       <ContactForm />
       <SectionTitle>Contacts</SectionTitle>
       <Filter />
