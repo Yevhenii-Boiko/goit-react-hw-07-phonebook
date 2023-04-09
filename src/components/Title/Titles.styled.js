@@ -14,3 +14,7 @@ export const SectionTitle = styled.h2`
   font-weight: bold;
   margin-bottom: 30px;
 `;
+
+export const LoadingAlert = styled.h3`
+  text-align: center;
+`;
